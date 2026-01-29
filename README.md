@@ -26,6 +26,39 @@ A full-stack application designed to analyze customer feedback from CSV files. T
 - **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
 - **Language**: TypeScript
 
+### 🏁 Getting Started
+Prerequisites
+Python 3.8+
+Node.js 18+
+1. Backend Setup
+Navigate to the backend directory and set up the Python environment.
+
+bash
+cd backend
+# Create a virtual environment
+python -m venv venv
+# Activate the virtual environment
+# Windows:
+venv\Scripts\activate
+# Mac/Linux:
+source venv/bin/activate
+# Install dependencies
+pip install -r requirements.txt
+# Run the server
+uvicorn main:app --reload
+The backend API will be available at http://localhost:8000. API Docs (Swagger UI): http://localhost:8000/docs
+
+2. Frontend Setup
+Open a new terminal, navigate to the frontend directory, and start the development server.
+
+bash
+cd frontend
+# Install dependencies
+npm install
+# Run the development server
+npm run dev
+The frontend application will be available at http://localhost:3000.
+
 ## 📂 Project Structure
 
 ```bash
